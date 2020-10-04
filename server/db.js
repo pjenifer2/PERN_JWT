@@ -1,6 +1,6 @@
 const Pool = require("pg").Pool
 
-const Pool = new Pool (
+const pool = new Pool (
     {
     user: "postgres",
     password:  "Hello_World",
@@ -9,3 +9,5 @@ const Pool = new Pool (
     database: "jwttutorial"
     }
 )
+
+module.exports = pool;
