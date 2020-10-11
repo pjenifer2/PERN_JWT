@@ -44,6 +44,7 @@ function App() {
   useEffect(() => {
     isAuth()
   });
+  
   return (
     <Fragment>
       <Router>
